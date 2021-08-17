@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- SEO -->
+  <meta name="description"
+    content="La bodega más importante de Mendoza, llega a todo el país mostrando sus vinos más imponentes y ricos que existen. Desde los Malbec más trabajados, hasta los Chardonnay que más dulzor tienen.">
+  <meta name="keywords"
+    content="Bodega, Vinos, Malbec, Rosé, Chardonnay, Importantes, Sabrosos, Deliciosos, Especiales, Copa, Experiencia, Estilo, Elegancia, Aromas, Uvas, Viñedos, Vinoteca, Botella de vidrio, Sabor, Atención">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="./Css/style.css">
+  <link rel="shortcut icon" href="images/Background.png">
+  <title>Let me wine - vinos de calidad</title>
+</head>
+
+<body>
+  <header class="header-dos">
+    <nav class="navbar navbar-expand-lg navbar-light nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./images/Background.png" alt="logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Secciones/nuestros-vinos.html">Nuestros Vinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Secciones/nuestras-fincas.html">Nuestras Fincas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Secciones/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Idioma
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Español</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Francés</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <section class="container-fluid">
+    <!-- TÍTULO DE LA PÁGINA -->
+    <h1 class="wine">LET ME WINE</h1>
+
+    <!-- DIV DE CAROUSEL CON TEXTO AL LADO -->
+    <div class="row">
+      <!-- CAROUSEL -->
+      <div class="col-lg-7 col-md-6 col-sm-12 d-flex justify-content-center">
+        <!-- LG para desktop MD para tablet SM para mobile-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <!-- w-75 quiere decir que todo el carousel lo achico a 75-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/carousel1.jpg" class="img-fluid d-block w-100 carousel-1" alt="malbec">
+              <div class="carousel-caption d-none d-md-block">
+                <h4>Malbec</h4>
+                <p> Cálidos, suaves y con taninos dulces muy agradables</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel2.jpg" class="img-fluid d-block w-100 carousel-2" alt="vinoBlanco">
+              <div class="carousel-caption d-none d-md-block">
+                <h4>Chardonnay</h4>
+                <p> Vino blanco seco y con cuerpo </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel3.jpg" class="img-fluid d-block w-100 carousel-3" alt="vinoRosado">
+              <div class="carousel-caption d-none d-md-block">
+                <h4>Rosé</h4>
+                <p> Vinos rosado espumoso </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- TEXTO AL LADO DEL CAROUSEL -->
+      <div class="col-lg-5 col-md-6 col-sm-12 d-flex justify-content-center">
+        <p class="text-center p-5 title-wine"> Nuestros vinos más destacados </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO DE LA BODEGA-->
+  <section>
+    <video src="video/vino.mp4" autoplay muted loop class="video"></video>
+  </section>
+
+  <!-- GRID CON INFORMACION -->
+  <section class="grid-container">
+    <div class="grid-item div1">
+      <h2 class="empezar"> ¿Cómo empezó todo? </h2>
+    </div>
+    <div class="grid-item div2">
+      <p class="bodega-antes"> Bodega My-Wines fue fundada por Patricio Reich,
+        quien desde finales de la década de los 80 es parte de la industria del vino.
+        Inició sus pasos desempeñándose como socio gerente de Viña San Pedro en Chile.
+        Su pasión por el mundo del vino creció a lo largo de los años, y así fue que como familia,
+        junto a sus hijos, decidieron emprender un nuevo proyecto orientado a elaborar vinos de alta gama.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="redes" class="redes">
+    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram"> </i></a>
+  </footer>
+
+  <!-- BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

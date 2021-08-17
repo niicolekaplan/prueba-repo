@@ -1,0 +1,23 @@
+/* LISTAS */
+
+$colores-fincas: #3d3149,
+#eedfdf,
+rgb(173, 36, 81);
+
+.nuestras-fincas {
+    color: nth ($colores-fincas, 3);
+}
+
+.elevation,
+.climax,
+.water,
+.floor {
+    color: nth ($colores-fincas, 1);
+}
+
+.texto-elevacion,
+.texto-clima,
+.texto-agua,
+.texto-suelo {
+    color: nth ($colores-fincas, 2);
+}

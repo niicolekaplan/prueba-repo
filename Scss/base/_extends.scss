@@ -1,0 +1,57 @@
+/* PLACEHOLDER SECCIÓN NUESTRAS-FINCAS */
+
+%fotos {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 300px;
+    top: 20px;
+    border-radius: 3%;
+}
+
+.elevacion,
+.clima,
+.aguaDeDeshielo,
+.suelo {
+    @extend %fotos
+}
+
+%titulos-fincas {
+    color: rgb(61, 49, 73);
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.elevation,
+.climax,
+.water,
+.floor {
+    @extend %titulos-fincas
+}
+
+
+%textos-fincas {
+    color: rgb(238, 223, 223);
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    text-align: justify;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.texto-elevacion,
+.texto-clima,
+.texto-agua,
+.texto-suelo {
+    @extend %textos-fincas
+}
+
+
+

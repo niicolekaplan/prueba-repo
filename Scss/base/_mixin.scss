@@ -1,0 +1,19 @@
+/* MIXINS */
+
+@mixin container($ancho, $alto, $color) {
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+}
+
+.vino-uno {
+    @include container(200px, 100px, #33d374)
+}
+
+.vino-dos {
+    @include container(150px, 50px, #108EFF)
+}
+
+.vino-tres {
+    @include container (100px, 30px, #88ffaf)
+}
