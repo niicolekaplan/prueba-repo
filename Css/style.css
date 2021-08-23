@@ -12,10 +12,11 @@
 /* NESTING HEADER */
 .header-dos {
   width: 100%;
+  background-image: url(../images/fondok.png);
+  opacity: .8;
 }
 
 .header-dos .nav {
-  background-color: rgba(238, 237, 237, 0.534);
   font-size: 20px;
   line-height: 30px;
 }
@@ -27,8 +28,8 @@
 }
 
 .header-dos .logo {
-  width: 35px;
-  height: 35px;
+  width: 75px;
+  height: 75px;
 }
 
 .header-dos .logo:hover {
@@ -83,7 +84,7 @@
   display: flex;
   justify-content: start;
   margin-left: 20px;
-  
+
 }
 
 
@@ -180,9 +181,9 @@ body {
 .carousel-3 {
   border-radius: 2%;
   opacity: .7;
-  width: 400px;
-  height: 400px;
+  margin-top: 50px;
 }
+
 
 
 
@@ -222,7 +223,8 @@ body {
 
 .video {
   width: 100%;
-  opacity: .7;
+  height: 100%;
+  opacity: .9;
   margin-top: 50px;
 }
 
@@ -346,7 +348,7 @@ body {
     font-size: 40px;
   }
 
- 
+
 
 
 }
