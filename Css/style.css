@@ -134,17 +134,19 @@ body {
 
 /** FOOTER **/
 #redes a {
-  letter-spacing: 15px;
+  letter-spacing: 25px;
   font-weight: bold;
   width: 100%;
-  font-size: 30px;
-  color: rgb(99, 98, 98);
+  font-size: 60px;
+  color: black;
 }
 
 #redes {
   margin-top: 0px;
   padding-top: 0px;
   top: 93%;
+  background-color: grey;
+  display: flex;
 }
 
 #redes a i:hover {
@@ -152,6 +154,16 @@ body {
   /** PARA QUE SE DESENFOQUE CUANDO PASO EL CURSOR**/
 }
 
+.futer {
+  background-color: grey;
+  font-size: 30px;
+  color: rgb(66, 65, 65);
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+}
 
 /** CSS INICIO **/
 
@@ -171,8 +183,7 @@ body {
   color: rgb(255, 255, 255);
   margin-left: 5px;
   margin-right: 90px;
-  margin-top: 60px;
-
+  margin-top: 80px;
 }
 
 /* CAROUSEL */

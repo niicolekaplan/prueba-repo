@@ -46,6 +46,9 @@
               <a class="nav-link" href="./Secciones/nuestras-fincas.html">Nuestras Fincas</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="./Secciones/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="./Secciones/contacto.html">Contacto</a>
             </li>
             <li class="nav-item dropdown">
@@ -123,15 +126,11 @@
 
       <!-- TEXTO AL LADO DEL CAROUSEL -->
       <div class="col-lg-5 col-md-6 col-sm-12 d-flex justify-content-center">
-        <p class="text-center p-5 title-wine"> Nuestros vinos más destacados </p>
+        <h2 class="text-center p-5 title-wine"> Nuestros vinos más destacados </h2>
       </div>
     </div>
   </section>
 
-  <!-- VIDEO DE LA BODEGA-->
-  <section>
-    <video src="video/vino.mp4" autoplay muted loop class="video" title="video del recorrido de la bodega"></video>
-  </section>
 
   <!-- GRID CON INFORMACION -->
   <section class="grid-container">
@@ -155,7 +154,28 @@
       <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i></a>
       <a href="https://www.instagram.com/"><i class="fab fa-instagram"> </i></a>
     </div>
-    <div>
+
+    <div class="menu-footer">
+      <div class="btn" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn futer">Inicio</button>
+        <button type="button" class="btn futer">Nuestros Vinos</button>
+        <button type="button" class="btn futer">Nuestras Fincas</button>
+        <button type="button" class="btn futer">Nosotros</button>
+        <button type="button" class="btn futer">Contacto</button>
+
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn futer dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Idioma
+          </button>
+          <ul class="dropdown-menu futer" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item fs-5" href="#">Español</a></li>
+            <li><a class="dropdown-item fs-5" href="#">English</a></li>
+            <li><a class="dropdown-item fs-5" href="#">Francés</a></li>
+          </ul>
+        </div>
+      </div>
+
 
     </div>
   </footer>
