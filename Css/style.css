@@ -12,7 +12,7 @@
 /* NESTING HEADER */
 .header-dos {
   width: 100%;
-  background-image: url(../images/fondok.png);
+  background-image: url(../images/bodegon.png);
   opacity: .8;
 }
 
@@ -43,6 +43,10 @@
   -moz-transition: all 2s ease-out;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
 
 
 /* PLACEHOLDER SECCIÓN NUESTRAS-FINCAS */
