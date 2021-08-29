@@ -64,6 +64,15 @@
   border-radius: 2%;
 }
 
+.elevacion:hover,
+.clima:hover,
+.aguaDeDeshielo:hover,
+.suelo:hover {
+  transform: scale(2);
+  transition: all 2s ease-out;
+}
+
+
 .elevation,
 .climax,
 .water,
@@ -277,7 +286,11 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
 
+.nuestras-fincas:hover {
+  transform: translateX(300px);
+  transition: all 3s ease-in-out;
 }
 
 
