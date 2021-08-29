@@ -12,8 +12,7 @@
 /* NESTING HEADER */
 .header-dos {
   width: 100%;
-  background-image: url(../images/bodegon.png);
-  opacity: .8;
+  background-color: black;
 }
 
 .header-dos .nav {
@@ -155,7 +154,7 @@ body {
 }
 
 #redes {
-  margin-top: 0px;
+  margin-top: 100px;
   padding-top: 0px;
   top: 93%;
   background-color: grey;
@@ -183,7 +182,7 @@ body {
 
 .wine {
   font-family: 'Cinzel', serif;
-  font-size: 90px;
+  font-size: 80px;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -191,15 +190,21 @@ body {
 }
 
 .title-wine {
-  font-family: 'Cinzel', serif;
-  font-size: 50px;
-  color: rgb(255, 255, 255);
-  margin-left: 5px;
-  margin-right: 90px;
-  margin-top: 80px;
+  font-family: Verdana, sans-serif;
+  font-style: italic;
+  font-size: 35px;
+  color: rgb(206, 163, 163);
+  margin-right: 160px;
+  margin-top: 150px;
 }
 
+
+
 /* CAROUSEL */
+.el-carousel {
+  margin-top: 100px;
+}
+
 .carousel-1,
 .carousel-2,
 .carousel-3 {
@@ -208,17 +213,68 @@ body {
   margin-top: 50px;
 }
 
+.grid-dos {
+  background-color: rgba(255, 255, 255, 0.774);
+  margin-top: 250px;
+  border-radius: 2%;
+}
+
+.grid-dos:hover {
+  transform: scale(2);
+  transition: all 20s ease-in-out;
+}
+
+.viñedos {
+  margin-top: 100px;
+  border-radius: 2%;
+}
+
+.viñedos-uno {
+  color: rgb(9, 95, 170);
+  font-size: 70px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.viñedos-dos {
+  color: rgb(9, 95, 170);
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 
 
+.visitanos {
+  margin-top: 100px;
+  border-radius: 2%;
+}
+
+.visitanos-uno {
+  color: rgb(9, 95, 170);
+  font-size: 70px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.visitanos-dos {
+  color: rgb(9, 95, 170);
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 
 /* GRID */
 .grid-container {
-  margin-top: 50px;
+  margin-top: 250px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   column-gap: 5px;
-  background-color: rgba(255, 255, 255, 0.137);
+  background-color: black;
 }
 
 .empezar {
@@ -227,14 +283,14 @@ body {
   font-size: 50px;
   display: flex;
   justify-content: center;
-  color: rgba(202, 52, 127, 0.664);
+  color: white;
 
 }
 
 
 .bodega-antes {
   font-family: 'Lato', sans-serif;
-  color: rgba(202, 52, 127, 0.664);
+  color: white;
   font-size: 25px;
   display: flex;
   justify-content: center;
@@ -243,7 +299,7 @@ body {
 }
 
 
-/* VIDEO DEL INICIO */
+/* VIDEO*/
 
 .video {
   width: 100%;
@@ -294,10 +350,9 @@ body {
 }
 
 
-/**CSS de Nosotres**/
+/**CSS de Nosotros**/
 
 
-/** SUMADO CON FLEXBOX **/
 .nosotros {
   color: rgb(173, 36, 81);
   font-family: 'Lato', sans-serif;
@@ -306,6 +361,65 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.grid-tres {
+  border-radius: 2%;
+  margin-top: 100px;
+}
+
+.grid-tres:hover {
+  transform: scale(2);
+  transition: all 20s ease-in-out;
+}
+
+.bodeguita {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.tours {
+  margin-top: 100px;
+  border-radius: 2%;
+}
+
+.tours-uno {
+  color: white;
+  font-size: 70px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.tours-dos {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.visitanos1 {
+  margin-top: 100px;
+  border-radius: 2%;
+}
+
+.visitanos2 {
+  color: white;
+  font-size: 70px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.visitanos3 {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
 
 .historia {
   width: 600px;
@@ -361,7 +475,6 @@ body {
   .redes {
     display: flex;
     flex-direction: column;
-    /** PARA QUE LAS REDES SE VEAN EN COLUMNA **/
     justify-content: space-between;
   }
 
