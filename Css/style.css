@@ -485,11 +485,17 @@ body {
     row-gap: 5px;
   }
 
+
   .wine {
     font-size: 40px;
   }
 
-
+.grid-dos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  row-gap: 5px;
+}
 
 
 }
