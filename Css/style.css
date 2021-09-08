@@ -84,6 +84,7 @@
   justify-content: start;
   margin-left: 30px;
   margin-top: 120px;
+  font-weight: bolder;
 }
 
 .texto-elevacion,
@@ -97,6 +98,7 @@
   display: flex;
   justify-content: start;
   margin-left: 20px;
+  font-weight: lighter;
 
 }
 
@@ -370,6 +372,11 @@ body {
   justify-content: center;
 }
 
+.nosotros:hover {
+  transform: scaleX(2);
+  transition: all 3s ease-in-out;
+}
+
 .grid-tres {
   border-radius: 2%;
   margin-top: 100px;
@@ -440,7 +447,8 @@ body {
   align-items: center;
   margin-top: 90px;
   margin-left: 350px;
-
+  font-style: italic;
+  
 }
 
 
