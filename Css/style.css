@@ -175,9 +175,17 @@ body {
   color: rgb(66, 65, 65);
 }
 
+
 .menu-footer {
-  display: flex;
-  justify-content: center;
+ font-size: 15px;
+ margin-top: 30px;
+ margin-left: 50px;
+}
+
+.datos {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 /** CSS INICIO **/
