@@ -193,11 +193,12 @@ body {
 
 .wine {
   font-family: 'Cinzel', serif;
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 50px;
   display: flex;
   justify-content: center;
   color: rgb(83, 34, 60);
+  margin-right: 30px;
 }
 
 .title-wine {
@@ -293,6 +294,7 @@ body {
   grid-template-rows: 1fr;
   column-gap: 5px;
   background-color: black;
+  margin-right: 50px;
 }
 
 .empezar {
@@ -510,10 +512,7 @@ body {
   }
 
 
-  .wine {
-    font-size: 30px;
-  }
-
+ 
 .grid-dos {
   display: grid;
   grid-template-columns: 1fr;
