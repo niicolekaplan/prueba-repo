@@ -355,7 +355,7 @@ body {
 }
 
 .nuestras-fincas:hover {
-  transform: translateX(300px);
+  transform: scaleX(2);
   transition: all 3s ease-in-out;
 }
 
