@@ -196,10 +196,10 @@ body {
   font-size: 35px;
   color: rgb(255, 255, 255);
   margin-right: 160px;
-  margin-top: 350px;
+  margin-top: 300px;
   background-color: rgba(192, 55, 55, 0.616);
   border-radius: 3%;
-  height: 260px;
+  height: 300px;
 }
 
 .title-wine:hover {
