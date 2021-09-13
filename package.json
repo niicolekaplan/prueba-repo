@@ -1,11 +1,14 @@
 {
-  "name": "proyecto-final",
+  "name": "Let-Me-Wine",
   "version": "1.0.0",
-  "description": "",
+  "description": "En esta página podrás encontrar los mejores vinos recién traídos de Mendoza, con una calidad
+  sin duda de las mejores que existen en el país, donde nuestra historia nos atraviesa y dentro de las fincas se 
+  dimensionan los trabajos más cuidados de todo el sector de viñedos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nicole Kaplan",
   "license": "ISC"
+
 }
