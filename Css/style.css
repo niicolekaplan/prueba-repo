@@ -532,14 +532,16 @@ body {
   }
 
   .viñedos {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 
   .visitanos {
-    width: 300px;
-    height: 300px;
-  }
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+   }
+
 
   .viñedos-uno {
     margin-top: 450px;
@@ -557,7 +559,7 @@ body {
   }
 
   .visitanos-uno {
-    margin-top: 450px;
+    margin-top: 200px;
     margin-right: 20px;
     font-size: 30px;
     color: black;
@@ -580,9 +582,10 @@ body {
   .clima,
   .aguaDeDeshielo,
   .suelo {
-    width: 190px;
-    height: 190px;
+    width: 50px;
+    height: 50px;
     margin-left: 20px;
+  
   }
 
   .texto-elevacion,
@@ -693,7 +696,7 @@ body {
   }
 
   .visitanos-uno {
-    margin-top: 450px;
+    margin-top: 250px;
     margin-right: 20px;
     font-size: 30px;
     color: black;
@@ -716,8 +719,8 @@ body {
   .clima,
   .aguaDeDeshielo,
   .suelo {
-    width: 290px;
-    height: 290px;
+    width: 190px;
+    height: 190px;
     margin-left: 20px;
   }
 
